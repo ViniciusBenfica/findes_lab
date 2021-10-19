@@ -1,82 +1,58 @@
 import { Request, Response } from "express"
 import fs from "fs"
+import {readFile, media, mediana} from "../helper/index"
 
-export const getInfo = (req: Request, res: Response) => {
+export const getInfo = (req: Request, res: Response): Response => {
     const { namejson } = req.params
 
-    fs.readFile(`json/${namejson}.json`, (err, file: Buffer) => {
-        if(err) return res.json("Arquivo inexistente")
-        const data = JSON.parse(file.toString())
-
-        return res.json({"ok": true, "json": data})
-    })
+    return res.json(readFile(namejson))
 }
 
-export const getActivity = (req: Request, res: Response) => {
+export const getActivity = (req: Request, res: Response): Response => {
     const { namejson } = req.params
+    const data = readFile(namejson)
 
-    fs.readFile(`json/${namejson}.json`, (err, arquivo) => {
-        if(err) return res.json("Arquivo inexistente")
-        const data = JSON.parse(arquivo.toString())
-        
-        const result = data.exits.map((item: { exit_name: string , activity: string }) => {
+    if(data.ok){
+        const result = data.json.exits.map((item: { exit_name: string , activity: string }) => {
             return {exit_name : item.exit_name, activity: item.activity}
         })
 
-        return res.json({"ok": true, "activities": result})
-    })
+        return res.json({ok: true, activities: result})
+    }
+
+    return res.json(data)
 }
 
-export const getMeanActivity = (req: Request, res: Response) => {
+export const getMeanActivity = (req: Request, res: Response): Response => {
     const { namejson } = req.params
-    var count = 0;
+    const data = readFile(namejson)
 
-    fs.readFile(`json/${namejson}.json`, (err, arquivo) => {
-        if(err) return res.json("Arquivo inexistente")
-        const data = JSON.parse(arquivo.toString())
-        
-        const result = data.exits.map((item: { activity: number }) => {
-            count += item.activity
+    if(data.ok){
+        const result = data.json.exits.map((item: { activity: number }) => {
             return item.activity
+
         })
 
-        var media = count / result.length
-        var mediana = 0
-        
-        if(result.length % 2 == 0){
-            mediana = (result[result.length/2] + result[(result.length/2) + 1]) / 2
-        }else{
-            mediana = result[result.length/2]
-        }
+        return res.json({media: media(result), mediana: mediana(result)})
+    }
 
-        return res.json({"media": media, "mediana": mediana})
-    })
+    return res.json(data)
 }
 
-export const listMeanActivity = (req: Request, res: Response) =>{    
+export const listMeanActivity = (req: Request, res: Response): Response => {    
     const jsons = fs.readdirSync("json/")
 
-    var result = jsons.map((item) => {
-
+    var result = jsons.map(item => {
         try{
-            const data = JSON.parse(fs.readFileSync(`json/${item}`).toString())
-            var count = 0, media = 0, mediana = 0
-
-            const activityResult = data.exits.map((item: { activity: number }) => {
-                count += item.activity
+            const data = readFile(item.slice(0, -5))
+            const activityResult = data.json.exits.map((item: { activity: number }) => {
                 return item.activity
             })
 
-            media = count / activityResult.length
-            mediana = 0
-
-            if(activityResult.length % 2 == 0){
-                mediana = (activityResult[activityResult.length/2] + activityResult[(activityResult.length/2) + 1]) / 2
-            }else{
-                mediana = activityResult[activityResult.length/2]
-            }
-
-            return {item, media, mediana}
+            media(activityResult)
+            mediana(activityResult)
+            
+            return {item, media: media(activityResult), mediana: mediana(activityResult)}
 
         }catch(e){
             return {Error: e}
