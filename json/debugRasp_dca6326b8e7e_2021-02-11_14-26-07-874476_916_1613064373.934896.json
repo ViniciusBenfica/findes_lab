@@ -1,0 +1,2149 @@
+{
+	"json_type": "people_count",
+	"branch_name": "teste",
+	"host_name": "host_name",
+	"mac_address_device": "dc:a6:32:6b:8e:7e",
+	"mac_address_count": "0c:9d:92:8e:bf:f0",
+	"video_name": "debugRasp_dca6326b8e7e_2021-02-11_14-26-07-874476",
+	"width": 800,
+	"height": 600,
+	"person_id": 916,
+	"timestamp_registered": 1613064373.934896,
+	"exits": [
+		{
+			"exit_name": "saida_0",
+			"activity": 0,
+			"param_global": {
+				"name": "saida_0",
+				"position": [
+					[
+						0.15625,
+						0.485
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 1,
+				"mask": null,
+				"count": 0,
+				"capacity": 0,
+				"count_in": 0,
+				"count_out": 0,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_1",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_1",
+				"position": [
+					[
+						0.15625,
+						0.49
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 516,
+				"capacity": 0,
+				"count_in": 193,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_2",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_2",
+				"position": [
+					[
+						0.15625,
+						0.495
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 513,
+				"capacity": -2,
+				"count_in": 193,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_3",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_3",
+				"position": [
+					[
+						0.15625,
+						0.5
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 512,
+				"capacity": 0,
+				"count_in": 194,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_4",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_4",
+				"position": [
+					[
+						0.15625,
+						0.505
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 510,
+				"capacity": -2,
+				"count_in": 193,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_5",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_5",
+				"position": [
+					[
+						0.15625,
+						0.51
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 506,
+				"capacity": 0,
+				"count_in": 193,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_6",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_6",
+				"position": [
+					[
+						0.15625,
+						0.515
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 504,
+				"capacity": -4,
+				"count_in": 192,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_7",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_7",
+				"position": [
+					[
+						0.15625,
+						0.52
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 503,
+				"capacity": 0,
+				"count_in": 193,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_8",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_8",
+				"position": [
+					[
+						0.15625,
+						0.525
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 503,
+				"capacity": -4,
+				"count_in": 192,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_9",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_9",
+				"position": [
+					[
+						0.15625,
+						0.53
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 500,
+				"capacity": -4,
+				"count_in": 193,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_10",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_10",
+				"position": [
+					[
+						0.15625,
+						0.535
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 499,
+				"capacity": 0,
+				"count_in": 194,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_11",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_11",
+				"position": [
+					[
+						0.15625,
+						0.54
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 494,
+				"capacity": 2,
+				"count_in": 195,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_12",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_12",
+				"position": [
+					[
+						0.15625,
+						0.545
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 491,
+				"capacity": 4,
+				"count_in": 196,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_13",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_13",
+				"position": [
+					[
+						0.15625,
+						0.55
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 490,
+				"capacity": 6,
+				"count_in": 196,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_14",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_14",
+				"position": [
+					[
+						0.15625,
+						0.555
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 488,
+				"capacity": 2,
+				"count_in": 196,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_15",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_15",
+				"position": [
+					[
+						0.15625,
+						0.56
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 486,
+				"capacity": -2,
+				"count_in": 194,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_16",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_16",
+				"position": [
+					[
+						0.15625,
+						0.5650000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 484,
+				"capacity": 6,
+				"count_in": 196,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_17",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_17",
+				"position": [
+					[
+						0.15625,
+						0.5700000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 484,
+				"capacity": 4,
+				"count_in": 195,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_18",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_18",
+				"position": [
+					[
+						0.15625,
+						0.5750000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 483,
+				"capacity": 4,
+				"count_in": 195,
+				"count_out": 193,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_19",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_19",
+				"position": [
+					[
+						0.15625,
+						0.5800000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 482,
+				"capacity": 6,
+				"count_in": 195,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_20",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_20",
+				"position": [
+					[
+						0.15625,
+						0.5850000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 482,
+				"capacity": 6,
+				"count_in": 195,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_21",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_21",
+				"position": [
+					[
+						0.15625,
+						0.5900000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 482,
+				"capacity": 0,
+				"count_in": 195,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_22",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_22",
+				"position": [
+					[
+						0.15625,
+						0.5950000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 481,
+				"capacity": -2,
+				"count_in": 194,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_23",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_23",
+				"position": [
+					[
+						0.15625,
+						0.6000000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 481,
+				"capacity": -2,
+				"count_in": 193,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_24",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_24",
+				"position": [
+					[
+						0.15625,
+						0.6050000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 481,
+				"capacity": -4,
+				"count_in": 193,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_25",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_25",
+				"position": [
+					[
+						0.15625,
+						0.6100000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 480,
+				"capacity": 0,
+				"count_in": 194,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_26",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_26",
+				"position": [
+					[
+						0.15625,
+						0.6150000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 479,
+				"capacity": 2,
+				"count_in": 195,
+				"count_out": 194,
+				"count_unknown": 1
+			}
+		},
+		{
+			"exit_name": "saida_27",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_27",
+				"position": [
+					[
+						0.15625,
+						0.6200000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 478,
+				"capacity": 0,
+				"count_in": 195,
+				"count_out": 195,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_28",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_28",
+				"position": [
+					[
+						0.15625,
+						0.6250000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 478,
+				"capacity": 2,
+				"count_in": 195,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_29",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_29",
+				"position": [
+					[
+						0.15625,
+						0.6300000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 478,
+				"capacity": 4,
+				"count_in": 196,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_30",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_30",
+				"position": [
+					[
+						0.15625,
+						0.6350000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 477,
+				"capacity": 0,
+				"count_in": 194,
+				"count_out": 194,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_31",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_31",
+				"position": [
+					[
+						0.15625,
+						0.6400000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 477,
+				"capacity": 4,
+				"count_in": 194,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_32",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_32",
+				"position": [
+					[
+						0.15625,
+						0.6450000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 476,
+				"capacity": 6,
+				"count_in": 195,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_33",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_33",
+				"position": [
+					[
+						0.15625,
+						0.6500000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 475,
+				"capacity": 4,
+				"count_in": 194,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_34",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_34",
+				"position": [
+					[
+						0.15625,
+						0.6550000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 475,
+				"capacity": 0,
+				"count_in": 192,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_35",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_35",
+				"position": [
+					[
+						0.15625,
+						0.6600000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 474,
+				"capacity": -2,
+				"count_in": 191,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_36",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_36",
+				"position": [
+					[
+						0.15625,
+						0.6650000000000001
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 474,
+				"capacity": -2,
+				"count_in": 191,
+				"count_out": 192,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_37",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_37",
+				"position": [
+					[
+						0.15625,
+						0.6700000000000002
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 472,
+				"capacity": 2,
+				"count_in": 191,
+				"count_out": 190,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_38",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_38",
+				"position": [
+					[
+						0.15625,
+						0.6750000000000002
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 472,
+				"capacity": 0,
+				"count_in": 188,
+				"count_out": 188,
+				"count_unknown": 0
+			}
+		},
+		{
+			"exit_name": "saida_39",
+			"activity": 1,
+			"param_global": {
+				"name": "saida_39",
+				"position": [
+					[
+						0.15625,
+						0.6800000000000002
+					],
+					[
+						0.63125,
+						0.805
+					]
+				],
+				"exit_type": 3,
+				"mask": null,
+				"count": 472,
+				"capacity": 10,
+				"count_in": 187,
+				"count_out": 182,
+				"count_unknown": 0
+			}
+		}
+	],
+	"detected_object": [
+		{
+			"frame_index": 43,
+			"centroid": [
+				89,
+				539
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.009280089988751405
+			]
+		},
+		{
+			"frame_index": 44,
+			"centroid": [
+				99,
+				515
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.03768844221105527
+			]
+		},
+		{
+			"frame_index": 45,
+			"centroid": [
+				105,
+				506
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.0202991452991453
+			]
+		},
+		{
+			"frame_index": 46,
+			"centroid": [
+				108,
+				506
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.06603343465045593
+			]
+		},
+		{
+			"frame_index": 47,
+			"centroid": [
+				110,
+				503
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.08179261496797041
+			]
+		},
+		{
+			"frame_index": 48,
+			"centroid": [
+				114,
+				503
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.10868609125893348
+			]
+		},
+		{
+			"frame_index": 49,
+			"centroid": [
+				107,
+				490
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.08300301252576503
+			]
+		},
+		{
+			"frame_index": 50,
+			"centroid": [
+				107,
+				489
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.10063684834123222
+			]
+		},
+		{
+			"frame_index": 51,
+			"centroid": [
+				115,
+				467
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.07495812395309882
+			]
+		},
+		{
+			"frame_index": 52,
+			"centroid": [
+				117,
+				458
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.0830314447181568
+			]
+		},
+		{
+			"frame_index": 53,
+			"centroid": [
+				135,
+				450
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.10117694805194805
+			]
+		},
+		{
+			"frame_index": 54,
+			"centroid": [
+				144,
+				428
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.07192194206008584
+			]
+		},
+		{
+			"frame_index": 55,
+			"centroid": [
+				151,
+				413
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.0754014884449667
+			]
+		},
+		{
+			"frame_index": 56,
+			"centroid": [
+				154,
+				397
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.07402729429161148
+			]
+		},
+		{
+			"frame_index": 57,
+			"centroid": [
+				157,
+				391
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.08051679586563308
+			]
+		},
+		{
+			"frame_index": 58,
+			"centroid": [
+				157,
+				385
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.09758428254720587
+			]
+		},
+		{
+			"frame_index": 59,
+			"centroid": [
+				157,
+				379
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.10670969177701124
+			]
+		},
+		{
+			"frame_index": 60,
+			"centroid": [
+				159,
+				370
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.08449628844114528
+			]
+		},
+		{
+			"frame_index": 61,
+			"centroid": [
+				164,
+				358
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.039236706689536875
+			]
+		},
+		{
+			"frame_index": 62,
+			"centroid": [
+				165,
+				341
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.04445805266380894
+			]
+		},
+		{
+			"frame_index": 63,
+			"centroid": [
+				167,
+				329
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.04778691735213474
+			]
+		},
+		{
+			"frame_index": 64,
+			"centroid": [
+				165,
+				312
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.052781917536015896
+			]
+		},
+		{
+			"frame_index": 65,
+			"centroid": [
+				169,
+				289
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.0499603489294211
+			]
+		},
+		{
+			"frame_index": 66,
+			"centroid": [
+				168,
+				281
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.047997422957156664
+			]
+		},
+		{
+			"frame_index": 67,
+			"centroid": [
+				170,
+				272
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.030729085527340706
+			]
+		},
+		{
+			"frame_index": 68,
+			"centroid": [
+				170,
+				264
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.03340220385674931
+			]
+		},
+		{
+			"frame_index": 69,
+			"centroid": [
+				170,
+				260
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.043548387096774194
+			]
+		},
+		{
+			"frame_index": 70,
+			"centroid": [
+				174,
+				250
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.016899577510562237
+			]
+		},
+		{
+			"frame_index": 71,
+			"centroid": [
+				175,
+				221
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.02653381101656964
+			]
+		},
+		{
+			"frame_index": 72,
+			"centroid": [
+				170,
+				209
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.030856494611457744
+			]
+		},
+		{
+			"frame_index": 73,
+			"centroid": [
+				169,
+				191
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.02048780487804878
+			]
+		},
+		{
+			"frame_index": 74,
+			"centroid": [
+				169,
+				180
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.01880952380952381
+			]
+		},
+		{
+			"frame_index": 75,
+			"centroid": [
+				171,
+				172
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.031455223880597016
+			]
+		},
+		{
+			"frame_index": 76,
+			"centroid": [
+				174,
+				164
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.043871567505720827
+			]
+		},
+		{
+			"frame_index": 77,
+			"centroid": [
+				179,
+				152
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.05087912087912088
+			]
+		},
+		{
+			"frame_index": 78,
+			"centroid": [
+				180,
+				147
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.057893877551020406
+			]
+		},
+		{
+			"frame_index": 79,
+			"centroid": [
+				180,
+				139
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.052960474925792846
+			]
+		},
+		{
+			"frame_index": 80,
+			"centroid": [
+				187,
+				136
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.05182441837343408
+			]
+		},
+		{
+			"frame_index": 81,
+			"centroid": [
+				184,
+				115
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.05119047619047619
+			]
+		},
+		{
+			"frame_index": 82,
+			"centroid": [
+				184,
+				96
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.05373996789727127
+			]
+		},
+		{
+			"frame_index": 83,
+			"centroid": [
+				180,
+				81
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.05728269111463431
+			]
+		},
+		{
+			"frame_index": 84,
+			"centroid": [
+				183,
+				74
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.06835585585585585
+			]
+		},
+		{
+			"frame_index": 85,
+			"centroid": [
+				180,
+				68
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.0728188952146484
+			]
+		},
+		{
+			"frame_index": 86,
+			"centroid": [
+				181,
+				67
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.06727181400688863
+			]
+		},
+		{
+			"frame_index": 87,
+			"centroid": [
+				178,
+				66
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.07643600180913614
+			]
+		},
+		{
+			"frame_index": 88,
+			"centroid": [
+				172,
+				63
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.06620830150241915
+			]
+		},
+		{
+			"frame_index": 89,
+			"centroid": [
+				171,
+				61
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.027710381815860042
+			]
+		},
+		{
+			"frame_index": 90,
+			"centroid": [
+				171,
+				59
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.021551724137931036
+			]
+		},
+		{
+			"frame_index": 91,
+			"centroid": [
+				171,
+				51
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.0256011315417256
+			]
+		},
+		{
+			"frame_index": 92,
+			"centroid": [
+				170,
+				40
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.00934761441090555
+			]
+		},
+		{
+			"frame_index": 93,
+			"centroid": [
+				181,
+				37
+			],
+			"gender": [
+				"U",
+				-1
+			],
+			"age": [
+				-1,
+				-1
+			],
+			"mood": [
+				-1,
+				-1
+			],
+			"employee": [
+				0,
+				0.014257425742574258
+			]
+		}
+	]
+}

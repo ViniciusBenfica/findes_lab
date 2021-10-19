@@ -1,0 +1,13 @@
+version: "3.3"
+
+services:
+    api_wine:
+      container_name: api_wine
+      build: .
+      restart: always
+      volumes:
+        - .:/app
+        - /app/node_modules
+      ports:
+        - 8000:8000
+      command: yarn dev
