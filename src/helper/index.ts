@@ -9,6 +9,15 @@ export const readFile = (file: string): any => {
     }
 }
 
+export const deletFile = (file: string): any => {
+    try {
+        fs.unlinkSync(`json/${file}.json`)
+        return {ok: true, json: "Arquivo deletado"}
+    }catch(e) {
+        return {ok: false, json: "Arquivo inexistente"}
+    }
+}
+
 export const media = (array: []): number => {
     var count = 0
 

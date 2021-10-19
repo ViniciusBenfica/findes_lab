@@ -1,6 +1,6 @@
 import { Request, Response } from "express"
 import fs from "fs"
-import {readFile, media, mediana} from "../helper/index"
+import {readFile, media, mediana, deletFile} from "../helper/index"
 
 export const getInfo = (req: Request, res: Response): Response => {
     const { namejson } = req.params
@@ -60,5 +60,11 @@ export const listMeanActivity = (req: Request, res: Response): Response => {
     })
 
     return res.json(result)
+}
 
+export const deleteFile = (req: Request, res: Response): Response => {
+    const { namejson } = req.params
+    const data = deletFile(namejson)
+
+    return res.json(data)
 }
