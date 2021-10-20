@@ -2,15 +2,14 @@ import { Request, Response } from "express"
 import fs from "fs"
 import {readFile, media, mediana, deletFile} from "../helper/index"
 
-export const getInfo = (req: Request, res: Response): Response => {
+export const getInfo = async (req: Request, res: Response): Promise<Response> => {
     const { namejson } = req.params
-
-    return res.json(readFile(namejson))
+    return res.json(await readFile(namejson))
 }
 
-export const getActivity = (req: Request, res: Response): Response => {
+export const getActivity = async (req: Request, res: Response): Promise<Response> => {
     const { namejson } = req.params
-    const data = readFile(namejson)
+    const data = await readFile(namejson)
 
     if(data.ok){
         const result = data.json.exits.map((item: { exit_name: string , activity: string }) => {
@@ -23,9 +22,9 @@ export const getActivity = (req: Request, res: Response): Response => {
     return res.json(data)
 }
 
-export const getMeanActivity = (req: Request, res: Response): Response => {
+export const getMeanActivity = async (req: Request, res: Response): Promise<Response> => {
     const { namejson } = req.params
-    const data = readFile(namejson)
+    const data = await readFile(namejson)
 
     if(data.ok){
         const result = data.json.exits.map((item: { activity: number }) => {
@@ -39,13 +38,13 @@ export const getMeanActivity = (req: Request, res: Response): Response => {
     return res.json(data)
 }
 
-export const listMeanActivity = (req: Request, res: Response): Response => {    
+export const listMeanActivity = async (req: Request, res: Response): Promise<Response> => {    
     const jsons = fs.readdirSync("json/")
 
-    var result = jsons.map(item => {
+    var result = await Promise.all(jsons.map(async item => {
         try{
-            const data = readFile(item.slice(0, -5))
-            const activityResult = data.json.exits.map((item: { activity: number }) => {
+            const data = await readFile(item.slice(0, -5))
+            const activityResult = await data.json.exits.map((item: { activity: number }) => {
                 return item.activity
             })
 
@@ -57,14 +56,14 @@ export const listMeanActivity = (req: Request, res: Response): Response => {
         }catch(e){
             return {Error: e}
         }
-    })
+    }))
 
     return res.json(result)
 }
 
-export const deleteFile = (req: Request, res: Response): Response => {
+export const deleteFile = async (req: Request, res: Response): Promise<Response> => {
     const { namejson } = req.params
-    const data = deletFile(namejson)
+    const data = await deletFile(namejson)
 
     return res.json(data)
 }

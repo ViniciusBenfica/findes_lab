@@ -1,15 +1,15 @@
 import fs from "fs"
 
-export const readFile = (file: string): any => {
+export const readFile = async (file: string): Promise<any> => {
     try{
-        const data = JSON.parse(fs.readFileSync(`json/${file}.json`).toString())
+        const data = await JSON.parse(fs.readFileSync(`json/${file}.json`).toString())
         return {ok: true, json: data}
     }catch(e){
         return {ok: false, json: "Arquivo inexistente"}
     }
 }
 
-export const deletFile = (file: string): any => {
+export const deletFile = async (file: string): Promise<any> => {
     try {
         fs.unlinkSync(`json/${file}.json`)
         return {ok: true, json: "Arquivo deletado"}
